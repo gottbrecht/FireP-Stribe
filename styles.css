@@ -1,0 +1,17 @@
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+  .cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .player1 { background-color: yellow; }
+  .player2 { background-color: red; }
+  
